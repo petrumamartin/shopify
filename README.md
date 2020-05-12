@@ -8,7 +8,7 @@
 </ol>
 
 <h3>No matches are made</h3>
-<img src="1 - start.png" />
+<img src="1 - begin.png" />
 <h3>Some matches are made</h3>
 <img src="2 - matches.png" />
 <h3>The user wins</h3>
