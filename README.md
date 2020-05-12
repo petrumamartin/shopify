@@ -6,3 +6,10 @@
   <li>When all cards are matched the game ends with a <i>congratulations</i>.</li>
   <li>Click the <i>Reset Table</i></li>
 </ol>
+
+<h3>No matches are made</h3>
+<img src="1 - start.png" />
+<h3>Some matches are made</h3>
+<img src="2 - matches.png" />
+<h3>The user wins</h3>
+<img src="3 - win.png" />
