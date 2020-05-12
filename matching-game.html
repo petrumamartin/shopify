@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="matching-game.css" />
+<script src="matching-game.js"></script>
+<style>
+
+</style>
+<script src="products.js"></script>
+<script>
+
+</script>
+</head>
+<body onload="main()">
+<h1 id="notification">Match the Robots on the Chart</h1>
+
+<div id="grid-00" class="grid-container">
+
+  <div id="tile-0" class="grid-item" onClick="flipCard('0', '#i0')"><img id="i0" /></div>
+  <div id="tile-1" class="grid-item" onclick="flipCard('1', '#i1')"><img id="i1" /></div>
+  <div id="tile-2" class="grid-item" onclick="flipCard('2', '#i2')"><img id="i2" /></div>
+  <div id="tile-3" class="grid-item" onclick="flipCard('3', '#i3')"><img id="i3" /></div>
+  <div id="tile-4" class="grid-item" onclick="flipCard('4', '#i4')"><img id="i4" /></div>
+  <div id="tile-5" class="grid-item" onclick="flipCard('5', '#i5')"><img id="i5" /></div>
+  <div id="tile-6" class="grid-item" onclick="flipCard('6', '#i6')"><img id="i6" /></div>
+  <div id="tile-7" class="grid-item" onclick="flipCard('7', '#i7')"><img id="i7" /></div>
+  <div id="tile-8" class="grid-item" onclick="flipCard('8', '#i8')"><img id="i8" /></div>
+	<div id="tile-9" class="grid-item" onclick="flipCard('9', '#i9')"><img id="i9" /></div>
+	<div id="tile-10" class="grid-item" onclick="flipCard('10', '#i10')"><img id="i10" /></div>
+	<div id="tile-11" class="grid-item" onclick="flipCard('11', '#i11')"><img id="i11" /></div>
+	<div id="tile-12" class="grid-item" onclick="flipCard('12', '#i12')"><img id="i12" /></div>
+	<div id="tile-13" class="grid-item" onclick="flipCard('13', '#i13')"><img id="i13" /></div>
+	<div id="tile-14" class="grid-item" onclick="flipCard('14', '#i14')"><img id="i14" /></div>
+	<div id="tile-15" class="grid-item" onclick="flipCard('15', '#i15')"><img id="i15" /></div>
+	<div id="tile-16" class="grid-item" onclick="flipCard('16', '#i16')"><img id="i16" /></div>
+	<div id="tile-17" class="grid-item" onclick="flipCard('17', '#i17')"><img id="i17" /></div>
+	<div id="tile-18" class="grid-item" onclick="flipCard('18', '#i18')"><img id="i18" /></div>
+	<div id="tile-19" class="grid-item" onclick="flipCard('19', '#i19')"><img id="i19" /></div>
+	
+</div>
+<br />
+<button id="button-click" onclick="populateTable()">Reset Table</button>&nbsp;&nbsp;&nbsp;
+<button id="button-click" onclick="match()">Remove Tiles</button>&nbsp;&nbsp;&nbsp;
+<button id="button-click" onclick="returnCards()">Return Cards</button>&nbsp;&nbsp;&nbsp;
+<span id="match-count"></span>
+
+</body>
+</html>
