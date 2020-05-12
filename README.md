@@ -10,6 +10,6 @@
 <h3>No matches are made</h3>
 <img src="1 - begin.png" />
 <h3>Some matches are made</h3>
-<img src="2 - matches.png" />
+<img src="2 - match.png" />
 <h3>The user wins</h3>
 <img src="3 - win.png" />
